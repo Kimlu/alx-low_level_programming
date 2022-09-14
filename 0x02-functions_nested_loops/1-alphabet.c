@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * print alphabet check description
+ * print_alphabet - check description
  *
  * Return- nothing
  */
@@ -12,4 +12,4 @@ void print_alphabet(void)
 	for (i = a; i <= z; i++)
 		_putchar(i);
 	_putchar('\n');
-}	
+}
