@@ -15,7 +15,7 @@ void rev_string(char *str);
 void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
-char *strcpy(char *dest, char *src);
+char strcpy(char *dest, char *src);
 int _atoi(char *str);
 
 #endif /*MAIN_H*/
