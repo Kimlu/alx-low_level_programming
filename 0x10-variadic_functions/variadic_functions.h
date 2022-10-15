@@ -3,7 +3,7 @@
 
 #include <stdarg.h>
 
-type struct print
+typedef struct print
 {
 	char *t;
 	void (*f)(va_list);
